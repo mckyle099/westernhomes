@@ -63,20 +63,28 @@ button:focus { outline: none; }
 .cd-slider-nav a,
 .navbar-nav .nav-link {
 	background-color: rgba(255,255,255,0.8);
-	color: black;
+	color: #FFFDD0;
     display: table-cell;
     font-weight: 400;
     font-size: 1em;
 	vertical-align: middle;
     width: 160px;
     height: 40px;
+	font-family: western;
+}
+
+@font-face {
+  font-family: western;
+  src: url(css/fonts/western.ttf)
 }
 
 .cd-slider-nav .nav-item.selected .nav-link,
 .cd-slider-nav .nav-link:hover,
 .cd-slider-nav .nav-link:focus {
 	background-color: rgba(255,255,255,1);
-	color: #5394D6;
+	color: #FFFDD0;
+	text-decoration: underline;
+	font-family: western;
 }
 
 /* Hero Slider */
@@ -98,14 +106,15 @@ button:focus { outline: none; }
 
 
 .tm-bg-white-translucent {	
-	background-color: rgba(210,180,140,0.85);	
+	background-color: rgba(210,180,140,0);	
 }
 
-.tm-bg-white-translucent p { color: black; }
+.tm-bg-white-translucent p { color: #FFFDD0; }
 
 .tm-textbox {
 	display: inline-block;
 	padding: 40px 45px;
+	font-family: western;
 }
 
 .cd-hero-slider h2, .cd-hero-slider p {
@@ -132,8 +141,8 @@ button:focus { outline: none; }
 }
 
 .cd-hero-slider h2.tm-text-title {
-	color: #000002;
-    font-size: 1.3em;
+	color: #FFFDD0;
+    font-size: 1.5em;
     font-weight: 400;
 }
 
@@ -211,7 +220,7 @@ button:focus { outline: none; }
 }
 
 .tm-img {
-  	width: 250px;
+  	width: 350px;
   	height: auto;
   	border: 0px solid #ffffff;
   	margin: 0 auto 10px;
@@ -241,7 +250,7 @@ button:focus { outline: none; }
 	font-size: 1.8rem;
 }
 .form-control {
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,0);
 	border-radius: 0;
 	padding: 1rem 2rem;
 }
@@ -379,13 +388,13 @@ border-top-color: #f9c922; -webkit-animation: spin 1.5s linear infinite; /* Chro
 
 	.cd-slider-nav a,
 	.navbar-nav .nav-link {
-		background-color: rgba(255,255,255,0.4);
+		background-color: rgba(255,255,255,0);
 	}
 
 	.cd-slider-nav .nav-item.selected .nav-link,
 	.cd-slider-nav .nav-link:hover,
 	.cd-slider-nav .nav-link:focus {
-		background-color: rgba(255,255,255,0.7);
+		background-color: rgba(255,255,255,0);
 	}
 
 	.cd-slider-nav li {	
@@ -398,7 +407,7 @@ border-top-color: #f9c922; -webkit-animation: spin 1.5s linear infinite; /* Chro
 
 	.cd-slider-nav a,
 	.navbar-nav .nav-link {
-		font-size: 1.1em;
+		font-size: 1.5em;
 		height: 80px;
 	}
 
