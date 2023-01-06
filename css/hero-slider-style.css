@@ -41,7 +41,7 @@ Main Components
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 400px) {
   .cd-header {
     height: 70px;
     background-color: transparent;
@@ -55,7 +55,7 @@ Main Components
 #cd-logo img {
   display: block;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 400px) {
   #cd-logo {
     margin: 23px 0 0 5%;
   }
@@ -96,7 +96,7 @@ Main Components
   border-top: 1px solid #333c44;
   color: #ffffff;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 400px) {
   .cd-primary-nav {
     /* reset navigation values */
     width: auto;
@@ -187,12 +187,12 @@ Slider
   -moz-transition: -moz-transform 0.5s;
   transition: transform 0.5s;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 400px) {
   .cd-hero-slider {
     height: 500px;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 400px) {
   .cd-hero-slider {
     height: 680px;
   }
@@ -331,7 +331,7 @@ Single slide style
 .no-touch .cd-hero-slider .cd-btn.secondary:hover {
   background-color: #161a1e;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 400px) {
   /*.cd-hero-slider li:nth-of-type(2) {
     background-image: none;
   }*/
@@ -372,7 +372,7 @@ Single slide style
     font-size: 1.4rem;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 400px) {
   .cd-hero-slider .cd-full-width,
   .cd-hero-slider .cd-half-width {
     padding-top: 220px;
@@ -393,7 +393,7 @@ Single slide style
 Single slide animation
 
 -------------------------------- */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 400px) {
   .cd-hero-slider .cd-half-width {
     opacity: 0;
     -webkit-transform: translateX(40px);
@@ -633,7 +633,7 @@ Slider navigation
 .cd-slider-nav li.selected:nth-of-type(5) a::before {
   background-position: -96px -24px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 400px) {
   .cd-slider-nav {
     height: 80px;
   }
@@ -668,7 +668,7 @@ Main content
   color: #999999;
   margin: 2em 0;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 400px) {
   .cd-main-content {
     padding: 3em 0;
   }
