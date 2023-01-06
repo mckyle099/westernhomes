@@ -75,7 +75,7 @@ button:focus { outline: none; }
 
 @font-face {
   font-family: western;
-  src: url(css/fonts/western.ttf)
+  src: url(fonts/western.ttf)
 }
 
 .cd-slider-nav .nav-item.selected .nav-link,
