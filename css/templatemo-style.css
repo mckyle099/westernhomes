@@ -220,7 +220,8 @@ button:focus { outline: none; }
 }
 
 .tm-img {
-  	width: 350px;
+  	min-width: 250px;
+  	max-width: 350px;
   	height: auto;
   	border: 0px solid #ffffff;
   	margin: 0 auto 10px;
